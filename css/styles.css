@@ -1,3 +1,6 @@
+body {
+    background-color: yellow;
+}
 #homero {
     width: 300px;
     height: 300px;
@@ -28,7 +31,7 @@
     height: 300px;
     margin: 20px;
     background-color: rgb(253, 4, 4);
-    background-image: url(/images/Bart_Simpson_200px.png);
+    background-image: url(../images/Bart_Simpson_200px.png);
     padding: 50px;
     border: 5px solid rgb(41, 0, 7);
     float: left;
@@ -39,7 +42,7 @@
     height: 300px;
     margin: 20px;
     background-color: rgb(253, 104, 4);
-    background-image: url(/images/Lisa_Simpson.png);
+    background-image: url(../images/Lisa_Simpson.png);
     padding: 50px;
     border: 5px solid rgb(41, 10, 0);
     float: left;
@@ -47,7 +50,7 @@
 
 @font-face {
     font-family: simpsons;
-    src: url(/fonts/Simpsonfont.otf);
+    src: url(../fonts/Simpsonfont.otf);
 }
 
 h1 {
